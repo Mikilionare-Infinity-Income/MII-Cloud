@@ -23,6 +23,7 @@
     "prisma": "^6.9.0"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.2",
     "@types/morgan": "^1.9.9",
     "morgan": "^1.10.0",

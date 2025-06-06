@@ -6,3 +6,5 @@
 **/coverage
 **/build
 **/*/.next
+server/.env
+client/.env

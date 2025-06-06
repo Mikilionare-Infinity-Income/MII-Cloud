@@ -33,3 +33,8 @@ app.get("/api", routes);
 app.get("*", (req, res) => {
   res.status(200).send("Hello, World!");
 });
+
+// Listen for incoming requests
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
